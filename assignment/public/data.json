@@ -2,10 +2,10 @@
   {
     "id": 1,
     "user": {
-      "total_revenue": 60000,
+      "total_revenue": "60,000",
       "total_transactions": 120,
       "total_likes": 300,
-      "total_users": 5500,
+      "total_users": "5,500",
       "top_products": [
         {
           "product_name": "Basic tees",
@@ -53,10 +53,10 @@
   {
     "id": 2,
     "user": {
-      "total_revenue": 45000,
+      "total_revenue": "45,000",
       "total_transactions": 90,
       "total_likes": 200,
-      "total_users": 4800,
+      "total_users": "4,800",
       "top_products": [
         {
           "product_name": "Necklaces",

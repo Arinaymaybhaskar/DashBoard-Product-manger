@@ -362,10 +362,10 @@ const App = (props) => {
                         />
                       </svg>
                     </div>
-                    <p className="text-xs lg:text-base  mt-2 lg:mt-0">
+                    <p className="text-xs lg:text-[14px] font-lato mt-2 lg:mt-0">
                       Total Revenues
                     </p>
-                    <h1 className="w-[124px] text-black lg:text-2xl font-bold">
+                    <h1 className="w-[124px] font-sans text-black lg:text-2xl font-bold">
                       ${userData.user.total_revenue}
                     </h1>
                   </div>
@@ -384,10 +384,10 @@ const App = (props) => {
                         />
                       </svg>
                     </div>
-                    <p className="text-xs lg:text-base  mt-2 lg:mt-0">
+                    <p className="text-xs lg:text-[14px] font-lato mt-2 lg:mt-0">
                       Total Transactions
                     </p>
-                    <h1 className="w-[124px] text-black lg:text-2xl font-bold">
+                    <h1 className="w-[124px] font-sans  text-black lg:text-2xl font-bold">
                       {userData.user.total_transactions}
                     </h1>
                   </div>
@@ -406,10 +406,10 @@ const App = (props) => {
                         />
                       </svg>
                     </div>
-                    <p className="text-xs lg:text-base  mt-2 lg:mt-0">
+                    <p className="text-xs lg:text-[14px] font-lato mt-2 lg:mt-0">
                       Total Likes
                     </p>
-                    <h1 className="w-[124px] text-black lg:text-2xl font-bold">
+                    <h1 className="w-[124px] font-sans  text-black lg:text-2xl font-bold">
                       {userData.user.total_likes}
                     </h1>
                   </div>
@@ -428,10 +428,10 @@ const App = (props) => {
                         />
                       </svg>
                     </div>
-                    <p className="text-xs lg:text-base  mt-2 lg:mt-0">
+                    <p className="text-xs lg:text-[14px] font-lato mt-2 lg:mt-0">
                       Total Users
                     </p>
-                    <h1 className="w-[124px] text-black lg:text-2xl font-bold">
+                    <h1 className="w-[124px] font-sans text-black lg:text-2xl font-bold">
                       {userData.user.total_users}
                     </h1>
                   </div>
@@ -442,8 +442,8 @@ const App = (props) => {
                 >
                   <div className="w-full flex justify-between text-black lg:text-lg font-bold">
                     Activities
-                    <div className="flex gap-9">
-                      <div className="flex items-center text-sm gap-3 font-normal">
+                    <div className="flex gap-9 font-lato">
+                      <div className="flex items-center text-sm gap-3 font-normal ">
                         <div className="bg-[#E9A0A0] w-[10px] h-[10px] rounded-full "></div>
                         <p>Guest</p>
                       </div>
