@@ -12,7 +12,7 @@ import {
   XAxis,
   YAxis,
   CartesianGrid,
-  ResponsiveContainer
+  ResponsiveContainer,
 } from "recharts";
 import classNames from "classnames";
 
@@ -80,7 +80,7 @@ const App = (props) => {
         value: product.percentage_sale,
       }));
 
-      const COLORS = ["#EE8484", "#F6DC7D", "#98D89E"];
+      const COLORS = ["#9BDD7C", "#F6DC7D", "#EE8484"];
 
       return (
         <PieChart width={134} height={134} className="pie">
@@ -303,8 +303,8 @@ const App = (props) => {
               <div className="text-white text-sm font-normal">Contact Us</div>
             </div>
           </div>
-          <div className="w-full px-5 lg:px-0 lg:w-[70%]  flex flex-col py-[20px]">
-            <div className="flex justify-between w-full">
+          <div className="w-full px-5 lg:px-0 lg:w-[70%] h-[86%] flex flex-col py-[20px]">
+            <div className="flex justify-between w-full ">
               <div className="text-black gap-2 lg:text-2xl font-bold flex items-center">
                 <button
                   className="flex lg:hidden "
@@ -477,9 +477,21 @@ const App = (props) => {
                   <div className="bg-white h-[256px] w-full md:w-[48%] lg:[48%] mt-10 rounded-[20px] px-10 py-[30px]">
                     <div className="text-black text-lg font-bold w-full flex justify-between ">
                       <p>Top products</p>
-                      <p className="flex items-center gap-[5px] text-zinc-500 text-xs font-normal flex-col">
+                      <button className="flex items-center gap-[5px] text-zinc-500 text-xs font-normal ">
                         May - June 2021
-                      </p>
+                        <svg
+                          width="8"
+                          height="5"
+                          viewBox="0 0 8 5"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0.218599 0.255719C0.5193 -0.0722496 0.937938 -0.097987 1.30554 0.255719L4.00082 3.0111L6.69609 0.255719C7.0637 -0.097987 7.48302 -0.0722496 7.78166 0.255719C8.08236 0.582952 8.06305 1.13594 7.78166 1.44332C7.50164 1.7507 4.5436 4.75389 4.5436 4.75389C4.47316 4.83173 4.38873 4.89364 4.29536 4.93592C4.20198 4.97821 4.10157 5 4.00013 5C3.89868 5 3.79827 4.97821 3.7049 4.93592C3.61152 4.89364 3.5271 4.83173 3.45666 4.75389C3.45666 4.75389 0.499989 1.7507 0.218599 1.44332C-0.0634812 1.13594 -0.0821026 0.582952 0.218599 0.255719Z"
+                            fill="#858585"
+                          />
+                        </svg>
+                      </button>
                     </div>
                     <div
                       id="contentOfTopProduct"
@@ -522,7 +534,7 @@ const App = (props) => {
                       <div className="text-black text-lg font-bold">
                         Today’s schedule
                       </div>
-                      <div className="text-zinc-500 text-xs font-normal flex items-center gap-[6px]">
+                      <button className="text-zinc-500 text-xs font-normal flex items-center gap-[6px]">
                         <p>See All</p>
                         <svg
                           width="5"
@@ -536,7 +548,7 @@ const App = (props) => {
                             fill="#858585"
                           />
                         </svg>
-                      </div>
+                      </button>
                     </div>
                     <div className="flex mt-[25px]">
                       <div className="w-[5px] h-[66px]  bg-[#9BDD7C]"></div>
